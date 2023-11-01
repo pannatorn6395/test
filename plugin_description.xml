@@ -1,0 +1,19 @@
+<library path="lib/libobo_rviz_util">
+
+  <class name="rviz/ResetMarker"
+         type="rviz::ResetMarker"
+         base_class_type="rviz::Tool">
+    <description>
+      Tool for reset robot pose in stage and gazebo , including Obo worker interface
+    </description>
+  </class>
+
+   <class name="rviz/ControlPanel"
+         type="obo_rviz_util::ControlPanel"
+         base_class_type="rviz::Panel">
+    <description>
+      Control the SR1 Through RVIZ !
+    </description>
+  </class>
+
+</library>
